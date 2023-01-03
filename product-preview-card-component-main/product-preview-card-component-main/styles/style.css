@@ -1,0 +1,63 @@
+body {
+     background-color: hsl(30, 38%, 92%);
+     margin: 0;
+}
+
+.first-container  {
+     height  : 500px;
+     width: 700px;
+     background-color: hsl(0, 0%, 100%);
+     border-radius:  14px;
+     margin: auto auto;
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+}
+
+.image  {
+     float : left;
+     height: 100%;
+     width: 50%;
+     padding-right: 20px;
+     border-radius: 14px;
+}
+
+h3 {
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 500;
+     /* margin: 0; */
+}
+
+h1 {
+     font-family: 'Fraunces', serif;
+     font-weight: 700;
+     font-size: -webkit-xxx-large;
+     margin: 0;
+}
+
+.second-container  {
+     margin-top: 15px;
+}
+
+.paragraph {
+     font-family: 'Fraunces', serif;
+     font-weight: 100;
+     text-align: left;
+}
+
+.price {
+     /* text-align: center; */
+     height: auto;
+}
+
+.new-price {
+     display: inline-block;
+     color: hsl(158, 36%, 37%);
+     font-size: 3rem;
+}
+
+.cut  {
+     text-decoration: line-through;
+}
